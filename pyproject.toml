@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "YOUR_PACKAGE_NAME"
+name = "senseable-agents"
 version = "0.0.1"
-description = "YOUR_PACKAGE_NAME is a Python package for doing incredible stuff."
+description = "senseable-agents is a Python package for doing incredible stuff."
 authors = [
-    "YOUR_GITHUB_NICKNAME <YOUR_EMAIL>",
+    "ibevers <isaacbevers@gmail.com>",
 ]
 maintainers = [
-    "YOUR_GITHUB_NICKNAME <YOUR_EMAIL>",
+    "ibevers <isaacbevers@gmail.com>",
 ]
 license = "Apache-2.0"
 readme = "README.md"
-homepage = "YOUR_PACKAGE_REPO"
-repository = "YOUR_PACKAGE_REPO"
-documentation = "https://YOUR_GITHUB_NICKNAME.github.io/YOUR_PACKAGE_NAME"
+homepage = "https://github.com/sensein/senseable-agents"
+repository = "https://github.com/sensein/senseable-agents"
+documentation = "https://sensein.github.io/senseable-agents"
 keywords = ["python", "package", "template"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -20,7 +20,7 @@ classifiers = [
   "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent"
 ]
-packages = [{include = "YOUR_PACKAGE_NAME", from = "src"}]
+packages = [{include = "senseable-agents", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -97,7 +97,7 @@ convention = "google"
 "src/tests/**/*.py" = []
 
 [tool.poetry.scripts]
-YOUR_PACKAGE_NAME-cli = "YOUR_PACKAGE_NAME.cli:main"
+senseable-agents-cli = "senseable-agents.cli:main"
 
 [tool.ruff.format]
 quote-style = "double"
@@ -106,7 +106,7 @@ skip-magic-trailing-comma = false
 line-ending = "auto"
 
 [tool.poetry-dynamic-versioning]
-enable = true
+enable = false
 vcs = "git"
 style = "pep440"
 bump = true
