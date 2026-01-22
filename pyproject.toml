@@ -3,10 +3,12 @@ name = "senseable-agents"
 version = "0.0.1"
 description = "senseable-agents is a Python package for doing incredible stuff."
 authors = [
-    "ibevers <isaacbevers@gmail.com>",
+    "ibevers <isaacb@mit.edu>",
+    "ptrivedi <ptrivedi@mit.edu>"
 ]
 maintainers = [
-    "ibevers <isaacbevers@gmail.com>",
+    "ibevers <isaacb@mit.edu>",
+    "ptrivedi <ptrivedi@mit.edu>"
 ]
 license = "Apache-2.0"
 readme = "README.md"
